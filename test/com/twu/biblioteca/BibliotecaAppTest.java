@@ -32,4 +32,10 @@ public class BibliotecaAppTest {
                 BibliotecaApp.booksDetails(allBooks));
     }
 
+    @Test
+    public void shouldReturnMainMenuOptions () {
+        assertEquals("Main Manu (choose option)\nL for List Books\nC for Checkout\nR for Return\nQ for Quit\nChoice:",
+                BibliotecaApp.printMenu());
+    }
+
 }

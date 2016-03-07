@@ -16,5 +16,9 @@ public class Book {
         return details;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
 
 }
